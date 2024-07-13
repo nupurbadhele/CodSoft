@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website landing page</title>
+    
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color:white ;
+    }
+    
+    .navbar  ul{
+        top: 0.5%;
+        left:40%;
+        transform: translate(-80% -5%);
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        align-items: center;
+        padding: 1.8rem 0;
+        font-size: 20px;
+        color: black;
+    }
+    .item1:hover,
+    .item2:hover,
+    .item3:hover,
+    .item4:hover,
+    .item5:hover,
+    .item6:hover,
+    .item7:hover{
+        color: orange;
+    }
+    
+    .navbar li{
+        list-style: none;
+    }
+    .image1{
+        top: 0.5%;
+        left: 15%;
+        transform: translate(-80% -5%);
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+        align-items: center;
+        padding: 1.8rem 0;
+        font-size: 20px;
+        color: black;
+    }
+    
+    h1{
+        margin-top: 7%;
+        margin-left: 15%;
+        
+    }
+    .imgtext {
+        position: absolute; /* Position the text relative to the .image-container */
+        top: 30%; /* Position the text 50% from the top */
+        left: 30%; /* Position the text 50% from the left */
+        transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color for better readability */
+        padding: 10px; /* Optional: Add padding around the text */
+        color: white; /* Text color */
+        z-index: 10; /* Ensure the text is above the image */
+        font-style: oblique;
+        margin: 0; /* Remove default margin */
+        text-align: center; /* Center-align the text */
+        font-size: 40px; /* Adjust the font size as needed */
+        font-family: Arial, sans-serif; /* Specify the font family */
+      }
+    .image2{
+        margin-left: 10%;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        /* height: 100vh; */
+    }
+    .aboutus {
+        margin-left: 15%;
+        margin-top: 7%;
+        width: 40%;
+        font-size: 20px;
+        /* display: flex; */
+        /* gap: 50rem; */
+        
+     }
+     .circle {
+        width: 350px;
+        height: 50vh;
+        border-radius: 50% ;
+        background: rgb(62, 62, 62);
+        /* color: white; */
+        justify-content: center;
+       align-items: center;
+       display: flex;
+        font-size: 50px;
+        position: relative;
+        margin-top: -20%;
+        margin-left: 70%;
+     }
+     .circle p1 {
+        text-align: center; /* Centers the text horizontally */
+        margin: 0; /* Remove default margin */
+        position: absolute;
+        transform: translate(-5%, -10%); /* Center the text vertically and horizontally */
+        color: white;
+        background:rgb(62, 62, 62) ;
+      }
+     
+     .button{
+        margin-left: 15%;
+        margin-top: 3%;
+        width: 150px;
+        height: 5vh;
+        /* transition-property: width; */
+        color: white;
+        border-color: white;
+        background:rgb(74, 74, 74);
+        border-radius: 20px ;
+    }
+    .button:hover {
+        background: black;
+        color: rgb(190, 187, 187);
+    }
+    .services{
+        margin-left: 5%;
+        margin-top: 7%;
+    }
+    .services ul{
+        margin-top: 1%;
+        margin-left: 15%;
+       font-size: 20px;
+        display: flex;
+        gap: 16rem;
+        list-style: none;
+    }
+    .grid-container {
+        /* width: 80%;
+        margin: 100px auto;
+        background-color: #fff; */
+        color: white;
+        display: grid;
+        /* grid-template-rows: 250px 250px; */
+        gap: 15rem;
+        grid-template-columns: 100px 100px 100px ;
+        justify-content: center;
+        /* margin-top: 10%; */
+        margin-left: 10%;
+        width: 85%;
+        height: 25vh;
+        background:linear-gradient(to right,black,rgb(97, 97, 97), rgba(255, 255, 255, 0.919));
+    }
+    .item {
+        display: grid;
+        place-items: center;
+        /* text-transform: uppercase; */
+        font-size: 30px;
+        width: 300px;
+        /* letter-spacing: 2px; */
+        /* font-weight: bold; */
+        /* background: linear-gradient(to right,rgb(250, 49, 83),rgb(245, 97, 43), rgb(238, 165, 30)); */
+        background: rgb(245, 97, 43);
+    }
+    .item-1 {
+        background: transparent;
+    
+    }
+    .item-2 {
+        background:transparent ;
+    
+    }
+    .item-3 {
+        background: transparent;
+    
+    }
+    
+    .image3{
+        margin-left: 15%;
+        margin-top: 5%;
+        display: flex;
+        gap: 5rem;
+    }
+    h2{
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+        <li class="item1">Home</li>
+        <li  class="item2">Blog</li>
+        <li class="item3">Page</li>
+        <li class="item4">Testimonials</li>
+        <li class="item5">Contact</li>
+        <li class="item6">Services</li>
+        <li class="item7">Buy Now</li>
+        </ul></div>
+        <div class="navbar2">
+            <div class="image1">
+                <img src="twitter.png">
+                <img src="linkedin (2).png">
+                <img src="instagram (2).png">
+                <img src="facebook (3).png">
+                <img src="youtube.png">
+        
+            </div>
+        </div>
+        <h1>LANDING PAGE</h1>
+        <!-- <div class="image2">
+        <img src="Animated Floating Business Card 3D Mockup With Twisted Podium (1).png"></div>
+         -->
+        <div class="image2">
+            <div class="imgtext">INNOVATIVE DESIGNS</div>
+            <img src="pexels-jakubzerdzicki-22307556 (1).jpg"></div>
+        <div class="grid-container ">
+           <div class="item item-1">SALES
+            <!-- <div>start your bussiness with our help</div> -->
+           </div>
+           <div class="item item-2">DISCOUNTS</div>
+           <div class="item item-3">USE COUPENS</div>
+        </div>
+        <h2>ABOUT US</h2>
+        <div class="aboutus">
+           
+            An electronic business, often referred to as an e-business, leverages digital
+                technology to conduct transactions and operations online. It encompasses a 
+                range of activities including online sales, digital marketing, electronic 
+                payments, and customer service via the internet.E-businesses use websites, 
+                mobile apps, and social media to reach customers, streamline operations, 
+                and enhance user experience. They often employ data analytics to understand 
+                market trends, optimize inventory, and personalize marketing efforts, driving 
+                efficiency and growth in the digital marketplace.
+                
+                <button class="button">Read More</button>
+            </div>
+            <div class="circle"><p1> BUY NOW </p1> </div>
+            
+        
+        
+         <div class="services"><h2>OUR SERVICES</h2>
+            <div class="image3"><img src="pexels-matreding-4386143.jpg">
+                <img src="pexels-laurachouette-22696327 (3).jpg">
+                <img src="pexels-fotios-photos-3806168 (2).jpg">
+            </div>
+            <ul>
+        <li>USER EXPIRIENCES</li>
+        <li>CREATIVE DESIGNS</li>
+    <li>NEW TECHNOLOGY</ul></div>
+    
+</body>
+</html>
